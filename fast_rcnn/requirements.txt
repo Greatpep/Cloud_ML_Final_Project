@@ -1,0 +1,11 @@
+scikit-image 
+tqdm 
+fire 
+ipdb 
+matplotlib 
+torchnet
+fire
+pprintpp
+cython
+git+https://github.com/pytorch/tnt.git@master
+request
