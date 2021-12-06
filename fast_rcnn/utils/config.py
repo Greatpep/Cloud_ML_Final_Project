@@ -7,7 +7,7 @@ from pprint import pprint
 
 class Config:
     # data
-    voc_data_dir = '../../VOCdevkit/VOC2007/'
+    voc_data_dir = 'VOC2007/'
     min_size = 600  # image resize
     max_size = 1000 # image resize
     num_workers = 8
@@ -34,7 +34,7 @@ class Config:
     pretrained_model = 'vgg16'
 
     # training
-    epoch = 14
+    epoch = 1
 
 
     use_adam = False # Use Adam optimizer

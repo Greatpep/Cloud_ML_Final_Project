@@ -67,6 +67,7 @@ def train(**kwargs):
         print('load pretrained model from %s' % opt.load_path)
     best_map = 0
     lr_ = opt.lr
+    start = time.time()
     for epoch in range(opt.epoch):
         trainer.reset_meters()
         for ii, (img, bbox_, label_, scale) in tqdm(enumerate(dataloader)):
@@ -103,7 +104,10 @@ def train(**kwargs):
 
         if epoch == 13: 
             break
-
+    
+    end = time.time()
+    print("training time is :")
+    print(end - start)
 
 if __name__ == '__main__':
     import fire

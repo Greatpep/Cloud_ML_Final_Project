@@ -1,0 +1,4 @@
+__pycache__
+VOC2007
+.dockerignore
+.ipynb_checkpoints
