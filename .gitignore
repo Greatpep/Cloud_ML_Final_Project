@@ -1,5 +1,9 @@
 fast_rcnn/nohup.out
-VOCdevkit
 VOCdevkit_08-Jun-2007.tar
 VOCtest_06-Nov-2007.tar
 VOCtrainval_06-Nov-2007.tar
+VOCdevkit
+VOCdevkit.zip
+__MACOSX
+yolov3/VOC2007
+yolov3/weight/

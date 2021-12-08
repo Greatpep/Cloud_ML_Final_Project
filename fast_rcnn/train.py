@@ -12,13 +12,14 @@ from torch.utils import data as data_
 from trainer import FasterRCNNTrainer
 from utils import array_tool as at
 from utils.eval_tool import eval_detection_voc
+import time
 
-#import resource
+# import resource
 
-#rlimit = resource.getrlimit(resource.RLIMIT_NOFILE)
-#resource.setrlimit(resource.RLIMIT_NOFILE, (20480, rlimit[1]))
+# rlimit = resource.getrlimit(resource.RLIMIT_NOFILE)
+# resource.setrlimit(resource.RLIMIT_NOFILE, (20480, rlimit[1]))
 
-#matplotlib.use('agg')
+# matplotlib.use('agg')
 
 
 def eval(dataloader, faster_rcnn, test_num=10000):
