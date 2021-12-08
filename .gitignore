@@ -7,3 +7,4 @@ VOCdevkit.zip
 __MACOSX
 yolov3/VOC2007
 yolov3/weight/
+cascade-rcnn-fpn-faster_rcnn-pytorch1.0/data
